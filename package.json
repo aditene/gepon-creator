@@ -1,0 +1,17 @@
+{
+  "name": "gepon-creator",
+  "version": "1.0.0",
+  "description": "Platformă pentru proiectare și monitorizare rețele GEPON",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "cd react-ui && npm install && npm run build"
+  },
+  "author": {
+    "name": "Adi",
+    "email": "adi@example.com"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0"
+  }
+}
